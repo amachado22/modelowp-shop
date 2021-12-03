@@ -1,0 +1,57 @@
+version: '2'
+
+services:
+  modelobasic_db:
+    image: mysql:5.7
+    container_name: modelobasic_db
+    #networks:
+    #  - "hosting"
+    ports:
+      - "8080:3306"
+    volumes:
+      - ./database/data:/var/lib/mysql
+      - ./database/initdb.d:/docker-entrypoint-initdb.d
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mypassword
+      MYSQL_DATABASE: app
+      MYSQL_USER: app
+      MYSQL_PASSWORD: mypassword
+
+  wp:
+    depends_on:
+      - modelobasic_db
+    image: wordpress:latest
+    #image: wordpress7.3soap
+    container_name: modelobasic_wp
+    #networks:
+     # - "hosting"
+    ports:
+      - "80:80"
+    restart: always
+    links:
+      - modelobasic_db:mysql
+    volumes:
+      - ./src:/var/www/html
+      - ./etc/php/php.ini:/usr/local/etc/php/php.ini
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: modelobasic_phpmyadmin
+    volumes:
+      - ./phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php
+    links:
+      - modelobasic_db
+    #networks:
+     # - "hosting"
+    ports:
+      - "8081:80"
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=modelobasic_db
+
+#networks:
+#  hosting:
+#    ipam:
+#      config:
+#      - subnet: 172.16.8.0/24

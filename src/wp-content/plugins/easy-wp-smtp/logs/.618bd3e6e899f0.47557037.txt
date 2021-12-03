@@ -1,0 +1,19 @@
+[11/10/2021 2:15:02 PM] - Easy WP SMTP debug log file
+
+[11/10/2021 2:24:26 PM] - Headers: , To: jaccon@gmail.com, Subject: [Maktup] Registro de novo usuário
+[11/10/2021 2:24:27 PM] - Headers: , To: dchagas@mobsale.com.br, Subject: [Maktup] Detalhes de acesso
+[11/10/2021 2:27:50 PM] - Headers: , To: jaccon@gmail.com, Subject: [Maktup] Registro de novo usuário
+[11/10/2021 2:27:51 PM] - Headers: , To: julianocerchi@gmail.com, Subject: [Maktup] Detalhes de acesso
+[11/10/2021 3:21:27 PM] - Headers: , To: suporte@mobsale.com.br, Subject: [Wordfence Alert] Problems found on dev.maktubcontabil.com.br
+[11/10/2021 3:30:26 PM] - Headers: , To: jaccon@gmail.com, Subject: [Maktup] Senha alterada
+[11/10/2021 6:11:51 PM] - Headers: , To: jaccon@gmail.com, Subject: [Maktup] Senha alterada
+[11/11/2021 1:26:38 PM] - Headers: , To: jaccon@gmail.com, Subject: [Maktup] Alguns plugins foram atualizados automaticamente
+[11/11/2021 6:10:07 PM] - Headers: , To: suporte@mobsale.com.br, Subject: [Wordfence Alert] Problems found on dev.maktubcontabil.com.br
+[11/17/2021 12:10:04 AM] - Headers: , To: jaccon@gmail.com, Subject: [Maktup] Alguns plugins foram atualizados automaticamente
+[11/17/2021 12:10:16 AM] - Headers: , To: suporte@mobsale.com.br, Subject: Wordfence activity for 16 de novembro de 2021 on dev.maktubcontabil.com.br
+[11/17/2021 6:19:14 PM] - Headers: , To: suporte@mobsale.com.br, Subject: [Maktup] Novo endereço de e-mail do administrador
+[11/17/2021 6:21:02 PM] - Headers: , To: jaccon@gmail.com, Subject: [Maktup] E-mail alterado do administrador
+[11/18/2021 4:01:54 PM] - Headers: , To: suporte@mobsale.com.br, Subject: [Maktup] Alguns plugins foram atualizados automaticamente
+[11/22/2021 6:17:46 PM] - Headers: , To: suporte@mobsale.com.br, Subject: [Maktup] Alguns plugins foram atualizados automaticamente
+[11/22/2021 7:27:20 PM] - Headers: , To: suporte@mobsale.com.br, Subject: Wordfence activity for 22 de novembro de 2021 on dev.maktubcontabil.com.br
+[11/29/2021 7:15:26 PM] - Headers: , To: suporte@mobsale.com.br, Subject: Wordfence activity for 29 de novembro de 2021 on dev.maktubcontabil.com.br
